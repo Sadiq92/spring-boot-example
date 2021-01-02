@@ -14,7 +14,7 @@ class SpringBootExampleApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(SpringBootExampleApplicationTests.class);
 
 	@Test
-	public contextLoads() {
+	public void contextLoads() {
 		logger.info("test case executed");
 		assertEquals(true, true);
 	}
