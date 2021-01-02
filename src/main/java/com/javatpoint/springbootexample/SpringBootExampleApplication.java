@@ -13,6 +13,7 @@ public class SpringBootExampleApplication
 	
 	@PostConstruct
 	public void init() {
+		logger.info("create feature branch...");
 		logger.info("Application started...");
 	}
 	
