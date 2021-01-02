@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringBootExampleApplication 
 {
-	public static Logger logger = LoggerFactory.getLogger(SpringBootExampleApplication.class);
+	ublic static Logger logger = LoggerFactory.getLogger(SpringBootExampleApplication.class);
 	
 	@PostConstruct
 	public void init() {
