@@ -11,6 +11,7 @@ public class SpringBootExampleApplication
 {
 	public static Logger logger = LoggerFactory.getLogger(SpringBootExampleApplication.class);
 	
+	
 	@PostConstruct
 	public void init() {
 		
